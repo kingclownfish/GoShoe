@@ -1,0 +1,59 @@
+.text-ust{
+  font-family: 'Braah One', sans-serif;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+.btn-reset,.btn-inc,.btn-dec,.btn-cetak{
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: white;
+  margin-bottom: 3px;
+  font-family: 'Gill Sans MT';
+  cursor: pointer;
+}
+.btn-reset, .btn-dec{
+  margin-left: 0;
+  font-family: 'Gill Sans MT';
+}
+.btn-cetak{
+  width: 132px;
+  font-family: 'Gill Sans MT';
+}
+.btn-inc,.btn-dec{
+  width: 40px;
+  font-family: 'Gill Sans MT';
+}
+.btn-inc{
+  transition: box-shadow 1s;
+}
+.btn-inc:hover{
+  box-shadow: 5px 5px 10px black;
+}
+.btn-dec{
+  transition: box-shadow 1s;
+}
+.btn-dec:hover{
+  box-shadow: 5px 5px 10px black;
+}
+.btn-reset{
+  transition: box-shadow 1s;
+}
+.btn-reset:hover{
+  box-shadow: 5px 5px 10px black;
+}
+.btn-cetak{
+  transition: box-shadow 1s;
+}
+.btn-cetak:hover{
+  box-shadow: 5px 5px 10px black;
+}
+.butang-saiz-box{
+  background-color: forestgreen;
+  width: 147px;
+  margin-left: 80px;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  text-align: center;  
+  border-radius: 5px;
+  border: 3px solid darkgreen;
+}
